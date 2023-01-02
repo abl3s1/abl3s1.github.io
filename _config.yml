@@ -10,8 +10,8 @@ baseurl: /
 source: .
 destination: ./_site
 permalink: /:title
-# paginate: 3
-# paginate_path: /page/:num/
+paginate: nil
+paginate_path: nil
 
 defaults:
   -
@@ -30,3 +30,5 @@ plugins:
 # Custom variables
 owner : "abl3s1"
 year : "2023"
+
+google_analytics : G-RX6XZY7ZW3
